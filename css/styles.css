@@ -1,0 +1,113 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f3f4f6;
+}
+
+/* HEADER */
+header {
+    background-color: #2f2f2f;
+    color: white;
+    text-align: center;
+    padding: 20px 10px;
+}
+
+/* NAV */
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 14px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* CONTENEDOR */
+.container {
+    max-width: 1100px;
+    margin: auto;
+    background: white;
+    padding: 40px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+/* =========================
+   PROJECT CARDS (MEJORADO)
+========================= */
+
+.project-card {
+    border: none;
+    border-radius: 16px;
+    background: #ffffff;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+    transition: all 0.25s ease;
+    min-height: 420px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.project-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 28px rgba(0,0,0,0.15);
+}
+
+/* contenido interno */
+.card-body {
+    padding: 25px;
+}
+
+/* título */
+.card-title {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+
+/* texto */
+.card-text {
+    font-size: 14px;
+    color: #444;
+    margin-bottom: 15px;
+}
+
+/* tecnologías */
+.project-card p strong {
+    color: #111;
+}
+
+/* BOTÓN PRO */
+.btn-project {
+    display: block;
+    width: 100%;
+    text-align: center;
+
+    background-color: #6b7280; /* gris moderno */
+    color: white;
+
+    padding: 12px 14px;
+    border-radius: 10px;
+
+    text-decoration: none;
+    font-weight: 600;
+
+    margin-top: 15px;
+
+    transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+.btn-project:hover {
+    background-color: #4b5563; /* gris más oscuro */
+    transform: translateY(-2px);
+}
+
+.btn-project:active {
+    transform: scale(0.98);
+}
+
+.btn-project:hover {
+    background-color: #2563eb;
+}
